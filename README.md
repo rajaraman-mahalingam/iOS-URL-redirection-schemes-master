@@ -1,6 +1,6 @@
 # iOS-URL-redirection-schemes
 
-This is my first attempt in developing an iOS application. i have developed this using Swift. This is an app that uses iOS inter app communication capability, through URL schemes, and will call another app on the iOS device. It also can open any URL passed on the text box, on Safari. This can be installed on both jail-broken and non-jail broken devices.
+This is my first attempt in developing an iOS application. i have developed this using Swift. This is an app that uses iOS inter app communication capability, through URL schemes, and will call another app on the iOS device. It also can open any URL passed on the text box, using Safari (similar to Safarilauncher). This can be installed on both jail-broken and non-jail broken devices. Though the list of apps i have handled is not huge, i have tried to add the most frequent ones that i use everyday.
 
 Requisites:
 
