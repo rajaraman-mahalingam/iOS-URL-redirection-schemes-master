@@ -2,7 +2,7 @@
 
 What is this?
 
-This is a simple app that uses iOS inter app communication capability, through URL schemes, and will call another app on the iOS device. It also can open any URL passed on the text box, using Safari (similar to Safarilauncher). This can be installed on both jail-broken and non-jail broken devices. Though the list of apps i have handled is not huge, i have tried to add the most frequent ones that i use everyday. This app is intended to be used with appium for testing purposes. 
+This is a simple app that uses iOS inter app communication capability, through URL schemes, and will make call to other apps on the iOS device. It also can open any URL passed on the text box, using Safari (similar to Safarilauncher). This can be installed on both jail-broken and non-jail broken devices. Though the list of apps i have handled is not huge, i have tried to add the most frequent ones that i use everyday. This app is intended to be used with appium for testing purposes. 
 
 Below is the list of apps that i have covered
 
@@ -48,7 +48,7 @@ Requisites:
 
 Pre-installation instructions:
 
-1. If you arent sure of enabling developer options on your iphone, please hook you device to your macbook, open xcode and go to Window > devices, where you should see the connected device.
+1. If you aren't sure of enabling developer options on your iphone, please hook you device to your macbook, open xcode and go to Window > devices, where you should see the connected device.
 2. Turn off your device while still connected to macbook and xcode and turn the device on again.
 3. You should then see under Settings > Developer options, listed.
 
