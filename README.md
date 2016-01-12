@@ -1,6 +1,8 @@
 # iOS-URL-redirection-schemes
 
-This is my first attempt in developing an iOS application. i have developed this using Swift. This is a simple app that uses iOS inter app communication capability, through URL schemes, and will call another app on the iOS device. It also can open any URL passed on the text box, using Safari (similar to Safarilauncher). This can be installed on both jail-broken and non-jail broken devices. Though the list of apps i have handled is not huge, i have tried to add the most frequent ones that i use everyday. This app is intended to be used with appium for testing purposes. 
+What is this?
+
+This is a simple app that uses iOS inter app communication capability, through URL schemes, and will call another app on the iOS device. It also can open any URL passed on the text box, using Safari (similar to Safarilauncher). This can be installed on both jail-broken and non-jail broken devices. Though the list of apps i have handled is not huge, i have tried to add the most frequent ones that i use everyday. This app is intended to be used with appium for testing purposes. 
 
 Below is the list of apps that i have covered
 
@@ -29,6 +31,14 @@ Below is the list of apps that i have covered
 23. Device Settings
 24. Vimeo
 25. Safari
+
+Why did i build this?
+
+I am a software tester by profession and this is my first attempt in developing an iOS application. I have developed this using Swift. As part of the mobile project that i am working, i had to access third party apps and run automation scripts on real devices. E.g watching a Youtube or vimeo video, sending texts through Whatsapp, access facebook and post, etc. These are repeatable activities and i wanted to automate this process. When i did some research on how to go about automating such a scenario, i learnt that Appium cannot talk to third party apps without a development provisioning profile. I didnt want to run my tests on jail broken devices and hence didnt have any other option other than to go for commercially available tools like experitest(Seetest), perfectomobile or eggplant. These were too expensive, atleast for the budget that i had and hence started thinking in lines of an alternative that can fit my bill. Result: LaunchPad.
+
+LaunchPad is a mobile app that can be downloaded from here and is free to use. Once installed (please read the instructions below), this can be hooked to appium and then you should be able to work on the native iOS apps and control wifi, bluetooth etc. I have tried this in my project, on iOS platform, and has been successful to a certain extent.  This definitely requires more refinement which i am still doing at the moment. 
+
+As for Android, i have developed a similar app and that will be available in this space soon. 
 
 Requisites:
 
